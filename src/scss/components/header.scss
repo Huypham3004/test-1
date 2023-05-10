@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 1440px;
+    margin: auto;
+    padding: 0 40px;
+
+    .logo-image {
+        width: 137px;
+        height: 66px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 37px;
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            .menu-item__item {
+                font-size: 15px;
+                color: #4F4B65;
+            }
+        }
+
+        .menu-button {
+            display: flex;
+            gap: 15px;
+        }
+    }
+}

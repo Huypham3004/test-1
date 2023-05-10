@@ -1,0 +1,89 @@
+.technology {
+    margin: 80px auto;
+}
+
+.text-box {
+    position: relative;
+
+    .text-box__circle {
+        width: 79px;
+        height: 79px;
+        border-radius: 50%;
+        background-color: var(--circle-color);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .text-box__text {
+        padding-top: 26px;
+        padding-left: 39px;
+
+        .text__title {
+            font-size: 20px;
+            margin-bottom: 25px;
+            color: #2E2A41;
+        }
+
+        i {
+            font-size: 50px;
+        }
+    }
+
+
+    .text-box__comment {
+        font-size: 16px;
+        margin: 20px 0 36px 0;
+    }
+
+    .text-box__dot {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 59px;
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #E8E8EB;
+        }
+
+        .dot-1 {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #5E68F9;
+        }
+    }
+}
+
+.text-box-style2 {
+    padding-left: 60px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .text-box__circle-style2 {
+        left: 60px;
+        top: 25%;
+    }
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .author__cross {
+        width: 19px;
+        border: 1px solid #D8D8D8;
+    }
+
+    .author__name {
+        font-size: 14px;
+        color: #2E2A41;
+    }
+}

@@ -1,0 +1,15 @@
+.button {
+    padding: 12px 18px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.button--primary {
+    background-color: $colorPrimary;
+}
+
+.button--secondary {
+    background-color: $colorSecondary;
+}

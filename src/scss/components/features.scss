@@ -1,0 +1,35 @@
+.features {
+    margin: auto;
+    margin-top: 30px;
+    padding: 83px 69px 90px 70px;
+    background-color: #FCF3EC;
+    border-radius: 40px;
+
+    .feature-box {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding: 30px 38px 35px 30px;
+
+        .feature-box__icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: var(--icon-color);
+            background-color: var(--bg-color);
+        }
+
+        .feature-box__text {
+            margin-top: 29px;
+
+            .text__title {
+                font-size: 18px;
+                color: #2E2A41;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.post {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    .detail {
+        position: relative;
+        border-radius: 6px;
+        box-shadow: inset;
+
+        .detail__image {
+            width: 371px;
+            height: 208.69px;
+        }
+
+        .detail__design-image {
+            position: absolute;
+            top: 190px;
+            left: 0;
+        }
+
+        .detail__text {
+            font-weight: 500;
+            margin-top: 13px;
+            margin-left: 15px;
+        }
+
+        .detail__small-text {
+            font-size: 12px;
+            margin-left: 15px;
+        }
+    }
+}

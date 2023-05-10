@@ -1,0 +1,55 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+:root {
+    --grid: 12;
+    --grid-container-width: 1400px;
+    --grid-container-gap: 15px;
+    --grid-col-gap: 30px;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #7E7FA0;
+    font-family: $fontPrimary;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.4;
+    color: #2E2A41;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
